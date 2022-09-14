@@ -2,9 +2,8 @@ name: Push all branches except staging
 
 on:
   push:
-    branches:
-      branches-ignore:
-        - 'staging'
+    branches-ignore:
+      - 'staging'
 
 jobs:
   print-event:
